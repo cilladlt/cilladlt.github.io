@@ -10,6 +10,31 @@ body {
   background: #222222;
 }
 
+#icon-bar-override {
+  height:45px !important;
+}
+
+.item img {
+  width:70px !important;
+  height:45px !important;
+
+  padding: 10px 22.5px 10px 22.5px;
+  margin-right: -4px;
+  background:#333333;
+}
+
+#icons-right-indent {
+  width:45px;
+  display: inline-block;
+}
+
+#nav_logo {
+/*  height: 200px;*/
+  display: inline-block;
+/*  margin-left: 30%;
+  margin-right: 30%;*/
+}
+
 .gallery_header {
   margin-top: 50px;
   /*background: rgba(125, 71, 122, 0.5);*/
@@ -28,7 +53,7 @@ body {
 }
 
 .name {
-  padding-left: 25px;
+  padding-left: 45px;
   padding-right: 40px;
 }
 

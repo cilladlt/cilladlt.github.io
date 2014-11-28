@@ -9,12 +9,10 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/index.css" />
 
-
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/packery.pkgd.min.js"></script>
     <script src="js/utils.js"></script>
-
 
   </head>
   <body>
@@ -23,8 +21,15 @@
 
 
 <div class="sticky">
+
   <nav class="top-bar" data-topbar role="navigation">
+
   <ul class="title-area">
+ <!--    <li class="one-up">
+      <a class="item"><img id="nav_logo" src="img/logo.png"></a>
+    </li> -->
+
+    <!-- <li><img id="nav_logo" src="img/logo.png"></li> -->
     <li class="name"><h1>Pricilla Delatorre</h1></li>
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -36,21 +41,34 @@
       <li><a href="#concept">Concept Art</a></li>
       <li><a href="#prints">Prints</a></li>
       <li><a href="#illustrations">Illustrations</a></li>
+      <li><a href="#aboutme">About Me</a></li>
     </ul>
 
-    <ul class="right">
+    <!-- <ul class="right">
       <li><a href="mailto:pdelatorre50@gmail.com">pdelatorre50@gmail.com</a></li>
       <li><a href="tel:2818718008">281.871.8008</a></li>
-    </ul>
+    </ul> -->
+    <ul id="icon-bar-override" class="right">
+      <a href="mailto:pdelatorre50@gmail.com" class="item">
+        <img src="img/icons/icon_email.png" >
+      </a>
+      <a href="tel:2818718008" class="item">
+        <img src="img/icons/icon_phone.png" >
+      </a>
+      <a href="https://www.linkedin.com/pub/pricilla-delatorre/64/b92/8a3" target="_blank" class="item">
+        <img src="img/icons/icon_linkedin.png" >
+      </a>
+
+      <div id="icons-right-indent"></div>
+  </ul>
   </section>
 
   </nav>
 </div>
 
 <div id="container" class="row">
-
   <div class="large-12 columns gallery_header">
-      <a class="cursor_text" id="concept"><h2>Concept</h2></a>
+      <a class="cursor_text" id="concept"><h2>Concept Art</h2></a>
   </div>
   <div class="js-packery large-12 columns gallery_bg" 
     data-packery-options='{ "itemSelector": ".packery_item", "gutter": 15 }'>
