@@ -7,10 +7,14 @@
 
     <link rel="shortcut icon" href="img/logo.png">
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
 
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/packery.pkgd.min.js"></script>
+    <script src="js/utils.js"></script>
+
 
   </head>
   <body>
@@ -22,7 +26,7 @@
   <nav class="top-bar" data-topbar role="navigation">
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#">Pricilla Delatorre</a></h1>
+      <h1>Pricilla Delatorre</h1>
     </li>
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -31,26 +35,26 @@
   <section class="top-bar-section">
     <!-- Left Nav Section -->
     <ul class="left">
-      <!-- <li><a href="#">Home</a></li> -->
-      <li><a href="#concept_art">Concept Art</a></li>
-      <li><a href="#traditional_art">Traditional Art</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#concept">Concept Art</a></li>
+      <li><a href="#prints">Prints</a></li>
+      <li><a href="#illustrations">Illustrations</a></li>
     </ul>
 
     <ul class="right">
-      <!-- <li><a href="#">Home</a></li> -->
-      <li>281.871.8008</li>
+      <li><a href="mailto:pdelatorre50@gmail.com">pdelatorre50@gmail.com</a></li>
+      <li><a href="tel:2818718008">281.871.8008</a></li>
+
+    </ul>
   </section>
   </nav>
 </div>
 
-<a id="#concept_art">
 <div class="row">
-  <div class="large-12 columns">
-    <h1>Concept</h1>
-  </div>
 
-  <div id="container" class="js-packery large-12 columns"
+  <div class="large-12 columns">
+      <a id="concept"><h3>Concept</h3></a>
+  </div>
+  <div id="container" class="js-packery large-12 columns gallery_bg" 
     data-packery-options='{ "itemSelector": ".packery_item", "gutter": 15 }'>
     <img class="packery_item medium-3" src="img/sultan/sl_dreds_001.jpg">
     <img class="packery_item medium-3" src="img/sultan/sl_oracle_001.png">
@@ -64,24 +68,26 @@
   </div>
 
   <div class="large-12 columns">
-    <h1>Print</h1>
+    <a id="prints"><h3>Prints</h3></a>
   </div>
-  <div id="container" class="js-packery large-12 columns"
+  <div id="container" class="js-packery large-12 columns gallery_bg"
     data-packery-options='{ "itemSelector": ".packery_item", "gutter": 15 }'>
-    <img class="packery_item medium-3" src="img/prints/print_lindblum.jpg">
+    <img class="packery_item medium-4" src="img/prints/print_lindblum.jpg">
     <img class="packery_item medium-3" src="img/prints/print_owl.jpg">
-    <img class="packery_item medium-3" src="img/prints/print_snake.jpg">
+    <img class="packery_item medium-4" src="img/prints/print_snake.jpg">
   </div>
 
+  <div></div>
+
   <div class="large-12 columns">
-    <h1>Illustrations</h1>
+    <a id="illustrations"><h3>Illustrations</h3></a>
   </div>
-  <div id="container" class="js-packery large-12 columns"
+  <div id="container" class="js-packery large-12 columns gallery_bg"
     data-packery-options='{ "itemSelector": ".packery_item", "gutter": 15 }'>
     <img class="packery_item medium-3" src="img/sins/sins_envy.jpg">
     <img class="packery_item medium-3" src="img/sins/sins_gluttony.jpg">
-    <img class="packery_item medium-3" src="img/sins/sins_greed.jpg">
-    <img class="packery_item medium-3" src="img/sins/sins_lust.jpg">
+    <img class="packery_item medium-5" src="img/sins/sins_greed.jpg">
+    <img class="packery_item medium-5" src="img/sins/sins_lust.jpg">
     <img class="packery_item medium-3" src="img/sins/sins_pride.jpg">
     <img class="packery_item medium-3" src="img/sins/sins_sloth.jpg">
     <img class="packery_item medium-3" src="img/sins/sins_wrath.jpg">
@@ -89,18 +95,10 @@
 </div>
 </a>
 
-<a="#contact">
-<div class="row">
-  <div class="large-12 columns">
-    <h1>Contact</h1>
-  </div>
-  <ul>
-    <li>Pricilla Delatorre</li>
-    <li>281.871.8008</li>
-    <li>pdelatorre50@gmail.com</li>
-  </ul>
+
+<div class="row footer">
+  <p>&copy;2014 Pricilla Delatorre</p>
 </div>
-    </a>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
