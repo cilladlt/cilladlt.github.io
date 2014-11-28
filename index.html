@@ -13,6 +13,8 @@
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/packery.pkgd.min.js"></script>
+    <script src="js/utils.js"></script>
+
 
   </head>
   <body>
@@ -24,7 +26,7 @@
   <nav class="top-bar" data-topbar role="navigation">
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#">Pricilla Delatorre</a></h1>
+      <h1>Pricilla Delatorre</h1>
     </li>
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -33,17 +35,12 @@
   <section class="top-bar-section">
     <!-- Left Nav Section -->
     <ul class="left">
-      <!-- <li><a href="#">Home</a></li> -->
-      <li><a href="#concept_art">Concept Art</a></li>
-      <li><a href="#traditional_art">Prints</a></li>
-
-      <li><a href="#traditional_art">Illustrations</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#concept">Concept Art</a></li>
+      <li><a href="#prints">Prints</a></li>
+      <li><a href="#illustrations">Illustrations</a></li>
     </ul>
 
     <ul class="right">
-      <!-- <li><a href="#">Home</a></li> -->
-
       <li><a href="mailto:pdelatorre50@gmail.com">pdelatorre50@gmail.com</a></li>
       <li><a href="tel:2818718008">281.871.8008</a></li>
 
@@ -52,11 +49,10 @@
   </nav>
 </div>
 
-<a id="#concept_art">
 <div class="row">
 
   <div class="large-12 columns">
-    <h3>Concept</h3>
+      <a id="concept"><h3>Concept</h3></a>
   </div>
   <div id="container" class="js-packery large-12 columns gallery_bg" 
     data-packery-options='{ "itemSelector": ".packery_item", "gutter": 15 }'>
@@ -71,10 +67,8 @@
     <img class="packery_item medium-5" src="img/kingcrow/kc_protagonist_001.jpg">
   </div>
 
-<div></div>
-
   <div class="large-12 columns">
-    <h3>Prints</h3>
+    <a id="prints"><h3>Prints</h3></a>
   </div>
   <div id="container" class="js-packery large-12 columns gallery_bg"
     data-packery-options='{ "itemSelector": ".packery_item", "gutter": 15 }'>
@@ -86,7 +80,7 @@
   <div></div>
 
   <div class="large-12 columns">
-    <h3>Illustrations</h3>
+    <a id="illustrations"><h3>Illustrations</h3></a>
   </div>
   <div id="container" class="js-packery large-12 columns gallery_bg"
     data-packery-options='{ "itemSelector": ".packery_item", "gutter": 15 }'>
