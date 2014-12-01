@@ -15,12 +15,12 @@ body {
 }
 
 .item img {
-  width:70px !important;
-  height:45px !important;
+  width:45px !important;
+  height:30px !important;
 
-  padding: 10px 22.5px 10px 22.5px;
+  padding: 5px 10px 5px 10px;
   margin-right: -4px;
-  background:#333333;
+  /*background:#333333;*/
 }
 
 #icons-right-indent {
@@ -37,6 +37,8 @@ body {
 
 .gallery_header {
   margin-top: 50px;
+  text-indent: 12px;
+  padding-top: 8px;
   /*background: rgba(125, 71, 122, 0.5);*/
   background: rgba(0, 0, 0, 0.5);
 }
