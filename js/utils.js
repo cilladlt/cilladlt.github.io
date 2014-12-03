@@ -18,3 +18,9 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     // animated top scrolling
     $('body, html').animate({scrollTop: pos, easing:"easeInOutQuad", duration:1000});
 });
+
+
+var $container = $('.js_packery').imagesLoaded( function() {
+  // initialize Packery after all images have loaded
+  $container.packery();
+});
