@@ -1,38 +1,27 @@
-$(document).ready(function() {
 
-    $(document).foundation();
-    SetupScrollAnimation();
-
-    var $galleries = $(".js-packery");
-
-    //var packery = $galleries.packery({
-    //    itemSelector: '.packery_item',
-    //    gutter: 15
-    //});
-
-    //var fn = function () { console.log("print test function"); };
+Main();
 
 
-    var $container = $galleries.imagesLoaded( function() {
-        // initialize Packery after all images have loaded
-        $container.packery({
-            itemSelector: '.packery_item',
-            gutter: 15
+
+
+
+function Main() {
+    $(document).ready(function() {
+
+        $(document).foundation();
+        SetupScrollAnimation();
+
+        var $galleries = $(".js-packery");
+
+        var $container = $galleries.imagesLoaded(function() {
+            // initialize Packery after all images have loaded
+            $container.packery({
+                itemSelector: '.packery_item',
+                gutter: 15
+            });
         });
     });
-
-    //$galleries.imagesLoaded(function () {
-    //    packery.packery();
-    //    // images have loaded
-    //});
-    //imagesLoaded($packeryGalleries, function () {
-    //    console.log("instance: ");
-    //});
-
-    console.log("after");
-});
-
-
+}
 
 
 
