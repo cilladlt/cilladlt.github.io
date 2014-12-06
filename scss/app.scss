@@ -1,0 +1,169 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+$bg-color: #efefe4;
+//$bg-color: #342800;
+$gallery-bg-color: #20333a;
+
+
+
+body {
+  background-image: url("../img/bg/bg_paper0001.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: $bg-color;
+}
+
+.top-bar {
+  /*background: rgba(125, 71, 122, 0.5);*/
+  background: #222222;
+}
+
+
+.icon-bar {
+    height: 45px;
+}
+
+.icon-bar a {
+  width:45px !important;
+  height:45px !important;
+  display:inline-block;
+
+  /*padding: 5px 10px 5px 10px;
+  margin-right: -4px;*/
+  /*background:#333333;*/
+}
+
+.contact-info-container {
+    background: none !important;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+
+.contact-info {
+    display: inline-block;
+    margin: 12px 30px 12px 0px;
+    font-size: 0.8125rem;
+    background: none !important;
+    /*font-family: 'district_prothin', Helvetica, Roboto, Arial, sans-serif;*/
+}
+
+#icons-right-indent {
+  width:45px;
+  display: inline-block;
+}
+
+#nav_logo {
+/*  height: 200px;*/
+  display: inline-block;
+/*  margin-left: 30%;
+  margin-right: 30%;*/
+}
+
+
+.gallery_header {
+  margin-top: 50px;
+  text-indent: 12px;
+  padding-top: 8px;
+  /*background: rgba(125, 71, 122, 0.5);*/
+  background: $gallery-bg-color;
+}
+
+.gallery_bg {
+  background: $gallery-bg-color;
+  padding: 9px 2.5% 25px 2.5%;
+}
+
+.footer {
+    /*font-family: 'district_prothin', Helvetica, Roboto, Arial, sans-serif;*/
+  background: #222222;
+  text-align: center;
+    height: 40px;
+}
+
+.footer p {
+    font-size: 0.8125rem;
+    margin-top: 9px;
+}
+
+.name {
+  padding-left: 45px;
+  padding-right: 40px;
+}
+
+.cursor_text {
+  cursor: text !important;
+}
+
+.cursor_pointer {
+  cursor: pointer !important;
+}
+
+.sins_container {
+  background: $gallery-bg-color;
+  padding: 0px 2% 50px 2%;
+}
+
+.sins {
+  margin: .5%;
+
+}
+
+#sins_pride {
+  width:40%;
+  margin-left: 27%;
+  margin-right: 27%;
+}
+
+.sins_upper {
+  width:46.5%;
+}
+
+.sins_lower {
+  width:22.5%;
+}
+
+
+.invisible {
+    opacity: 0;
+}
