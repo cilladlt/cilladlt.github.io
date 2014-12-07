@@ -45,10 +45,10 @@ $gallery-bg-color: rgba(34, 34, 34, 0.9);
 
 $top-bar-bg-color: #222222;
 
-$concept-art-bg-color: #e32f6a;
-$prints-bg-color: #aa9d01;
-$illustrations-bg-color: #18b3dd;
-$contact-info-container-bg-color: #333333;
+$concept-art-bg-color: #10825C;
+$prints-bg-color: #0B9991;
+$illustrations-bg-color: #0A728F;
+$contact-info-container-bg-color: #00202B;
 $contact-info-text-color: $ghost;
 
 
@@ -109,6 +109,7 @@ body {
     height: $topbar-height;
     padding:$topbar-link-padding;
     color: $contact-info-text-color;
+    background-color: $contact-info-container-bg-color !important;
 }
 
 
@@ -170,6 +171,7 @@ body {
 .sins_container {
   background: $gallery-bg-color;
   padding: 0 0.5% 50px 2%;
+
 }
 
 .sins {
