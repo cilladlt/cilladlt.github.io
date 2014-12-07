@@ -23466,26 +23466,49 @@ body {
 }
 
 /* line 40, ../scss/app.scss */
+.name:hover {
+  background-color: #FAFAFA !important;
+}
+
+/* line 44, ../scss/app.scss */
 .concept-art-button {
   background-color: #10825C !important;
 }
 
-/* line 44, ../scss/app.scss */
+/* line 48, ../scss/app.scss */
+.concept-art-button:hover {
+  background-color: #222222 !important;
+  color: #10825C !important;
+}
+
+/* line 53, ../scss/app.scss */
 .prints-button {
   background-color: #0B9991 !important;
 }
 
-/* line 48, ../scss/app.scss */
+/* line 57, ../scss/app.scss */
+.prints-button:hover {
+  background-color: #222222 !important;
+  color: #0B9991 !important;
+}
+
+/* line 62, ../scss/app.scss */
 .illustrations-button {
   background-color: #0A728F !important;
 }
 
-/* line 52, ../scss/app.scss */
+/* line 66, ../scss/app.scss */
+.illustrations-button:hover {
+  background-color: #222222 !important;
+  color: #0A728F !important;
+}
+
+/* line 71, ../scss/app.scss */
 .contact-info-container {
   background-color: #00202B !important;
 }
 
-/* line 56, ../scss/app.scss */
+/* line 75, ../scss/app.scss */
 .contact-info-button {
   cursor: text;
   font-size: 0.8125rem;
@@ -23499,18 +23522,18 @@ body {
   background-color: #00202B !important;
 }
 
-/* line 71, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 .about-description {
   text-indent: 50px;
 }
 
-/* line 75, ../scss/app.scss */
+/* line 94, ../scss/app.scss */
 .social-media-container {
   list-style: none;
   width: 100%;
 }
 
-/* line 80, ../scss/app.scss */
+/* line 99, ../scss/app.scss */
 .social-media-icon {
   height: 30px;
   width: 30px;
@@ -23518,31 +23541,31 @@ body {
   margin: 0 3% 0 5%;
 }
 
-/* line 87, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 .email {
   background-image: url("../img/icons/icon_email_white.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 93, ../scss/app.scss */
+/* line 112, ../scss/app.scss */
 .email:hover {
   background-image: url("../img/icons/icon_email_babyblue.png");
 }
 
-/* line 97, ../scss/app.scss */
+/* line 116, ../scss/app.scss */
 .linkedin {
   background-image: url("../img/icons/icon_linkedin_white.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 103, ../scss/app.scss */
+/* line 122, ../scss/app.scss */
 .linkedin:hover {
   background-image: url("../img/icons/icon_linkedin_babyblue.png");
 }
 
-/* line 109, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 .gallery-header {
   background: rgba(34, 34, 34, 0.9);
   margin-top: 50px;
@@ -23550,34 +23573,34 @@ body {
   padding-top: 8px;
 }
 
-/* line 116, ../scss/app.scss */
+/* line 135, ../scss/app.scss */
 .gallery-bg {
   background: rgba(34, 34, 34, 0.9);
   padding: 9px 2.5% 25px 2.5%;
 }
 
-/* line 123, ../scss/app.scss */
+/* line 142, ../scss/app.scss */
 .sins-container {
   background: rgba(34, 34, 34, 0.9);
   padding: 0 0.5% 50px 2%;
 }
 
-/* line 128, ../scss/app.scss */
+/* line 147, ../scss/app.scss */
 .sins {
   margin: .8%;
 }
 
-/* line 133, ../scss/app.scss */
+/* line 152, ../scss/app.scss */
 .sins-upper {
-  width: 47%;
+  width: 46.5%;
 }
 
-/* line 137, ../scss/app.scss */
+/* line 156, ../scss/app.scss */
 .sins-lower {
-  width: 22.5%;
+  width: 22.25%;
 }
 
-/* line 143, ../scss/app.scss */
+/* line 162, ../scss/app.scss */
 .footer {
   background: #00202B;
   color: #FAFAFA;
@@ -23585,9 +23608,9 @@ body {
   height: 40px;
 }
 
-/* line 150, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 .footer p {
   font-size: 0.8125rem;
   margin-top: 9px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }

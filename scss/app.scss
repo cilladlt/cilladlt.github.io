@@ -37,16 +37,35 @@ body {
   padding-right: 40px;
 }
 
+.name:hover {
+    background-color: $ghost !important;
+}
+
 .concept-art-button {
     background-color: $concept-art-bg-color !important;
+}
+
+.concept-art-button:hover {
+    background-color: $jet !important;
+    color: $concept-art-bg-color !important;
 }
 
 .prints-button {
     background-color: $prints-bg-color !important;
 }
 
+.prints-button:hover {
+    background-color: $jet !important;
+    color: $prints-bg-color !important;
+}
+
 .illustrations-button {
     background-color: $illustrations-bg-color !important;
+}
+
+.illustrations-button:hover {
+    background-color: $jet !important;
+    color: $illustrations-bg-color !important;
 }
 
 .contact-info-container {
@@ -131,11 +150,11 @@ body {
 }
 
 .sins-upper {
-  width:47%;
+  width:46.5%;
 }
 
 .sins-lower {
-  width:22.5%;
+  width:22.25%;
 }
 
 
@@ -148,7 +167,7 @@ body {
 }
 
 .footer p {
-    font-size: 0.8125rem;
+    font-size: $topbar-link-font-size;
     margin-top: 9px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
