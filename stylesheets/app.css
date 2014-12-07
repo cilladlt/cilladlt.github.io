@@ -23419,17 +23419,17 @@ th.hide-for-touch {
 }
 /* line 58, ../scss/app.scss */
 .concept-art-button {
-  background-color: #e32f6a !important;
+  background-color: #10825C !important;
 }
 
 /* line 62, ../scss/app.scss */
 .prints-button {
-  background-color: #aa9d01 !important;
+  background-color: #0B9991 !important;
 }
 
 /* line 66, ../scss/app.scss */
 .illustrations-button {
-  background-color: #18b3dd !important;
+  background-color: #0A728F !important;
 }
 
 /* line 71, ../scss/app.scss */
@@ -23464,7 +23464,7 @@ body {
 
 /* line 99, ../scss/app.scss */
 .contact-info-container {
-  background-color: #333333 !important;
+  background-color: #00202B !important;
 }
 
 /* line 104, ../scss/app.scss */
@@ -23475,15 +23475,16 @@ body {
   height: 45px;
   padding: 15px;
   color: #FAFAFA;
+  background-color: #00202B !important;
 }
 
-/* line 115, ../scss/app.scss */
+/* line 116, ../scss/app.scss */
 #icons-right-indent {
   width: 45px;
   display: inline-block;
 }
 
-/* line 120, ../scss/app.scss */
+/* line 121, ../scss/app.scss */
 #nav_logo {
   /*  height: 200px;*/
   display: inline-block;
@@ -23491,12 +23492,12 @@ body {
     margin-right: 30%;*/
 }
 
-/* line 127, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 .font-color-ghost {
   color: #FAFAFA !important;
 }
 
-/* line 132, ../scss/app.scss */
+/* line 133, ../scss/app.scss */
 .gallery_header {
   margin-top: 50px;
   text-indent: 12px;
@@ -23505,13 +23506,13 @@ body {
   background: rgba(34, 34, 34, 0.9);
 }
 
-/* line 140, ../scss/app.scss */
+/* line 141, ../scss/app.scss */
 .gallery_bg {
   background: rgba(34, 34, 34, 0.9);
   padding: 9px 2.5% 25px 2.5%;
 }
 
-/* line 145, ../scss/app.scss */
+/* line 146, ../scss/app.scss */
 .footer {
   /*font-family: 'district_prothin', Helvetica, Roboto, Arial, sans-serif;*/
   background: #222222;
@@ -23519,57 +23520,57 @@ body {
   height: 40px;
 }
 
-/* line 152, ../scss/app.scss */
+/* line 153, ../scss/app.scss */
 .footer p {
   font-size: 0.8125rem;
   margin-top: 9px;
 }
 
-/* line 157, ../scss/app.scss */
+/* line 158, ../scss/app.scss */
 .name {
   padding-left: 45px;
   padding-right: 40px;
 }
 
-/* line 162, ../scss/app.scss */
+/* line 163, ../scss/app.scss */
 .cursor_text {
   cursor: text !important;
 }
 
-/* line 166, ../scss/app.scss */
+/* line 167, ../scss/app.scss */
 .cursor_pointer {
   cursor: pointer !important;
 }
 
-/* line 170, ../scss/app.scss */
+/* line 171, ../scss/app.scss */
 .sins_container {
   background: rgba(34, 34, 34, 0.9);
   padding: 0px 2% 50px 2%;
 }
 
-/* line 175, ../scss/app.scss */
+/* line 176, ../scss/app.scss */
 .sins {
   margin: .5%;
 }
 
-/* line 180, ../scss/app.scss */
+/* line 181, ../scss/app.scss */
 #sins_pride {
   width: 40%;
   margin-left: 27%;
   margin-right: 27%;
 }
 
-/* line 186, ../scss/app.scss */
+/* line 187, ../scss/app.scss */
 .sins_upper {
   width: 46.5%;
 }
 
-/* line 190, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 .sins_lower {
   width: 22.5%;
 }
 
-/* line 195, ../scss/app.scss */
+/* line 196, ../scss/app.scss */
 .invisible {
   opacity: 0;
 }
