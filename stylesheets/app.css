@@ -23544,32 +23544,25 @@ body {
 /* line 170, ../scss/app.scss */
 .sins_container {
   background: rgba(34, 34, 34, 0.9);
-  padding: 0px 2% 50px 2%;
+  padding: 0 0.5% 50px 2%;
 }
 
 /* line 175, ../scss/app.scss */
 .sins {
-  margin: .5%;
+  margin: .8%;
 }
 
 /* line 180, ../scss/app.scss */
-#sins_pride {
-  width: 40%;
-  margin-left: 27%;
-  margin-right: 27%;
-}
-
-/* line 186, ../scss/app.scss */
 .sins_upper {
-  width: 46.5%;
+  width: 47%;
 }
 
-/* line 190, ../scss/app.scss */
+/* line 184, ../scss/app.scss */
 .sins_lower {
   width: 22.5%;
 }
 
-/* line 195, ../scss/app.scss */
+/* line 189, ../scss/app.scss */
 .invisible {
   opacity: 0;
 }
