@@ -39,23 +39,46 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
-$bg-color: #efefe4;
-//$bg-color: #342800;
-$gallery-bg-color: #20333a;
 
+$body-bg-color: #111111;
+$gallery-bg-color: rgba(34, 34, 34, 0.9);
+
+$top-bar-bg-color: #222222;
+
+$concept-art-bg-color: #e32f6a;
+$prints-bg-color: #aa9d01;
+$illustrations-bg-color: #18b3dd;
+$contact-info-container-bg-color: #333333;
+$contact-info-text-color: $ghost;
+
+
+
+
+
+.concept-art-button {
+    background-color: $concept-art-bg-color !important;
+}
+
+.prints-button {
+    background-color: $prints-bg-color !important;
+}
+
+.illustrations-button {
+    background-color: $illustrations-bg-color !important;
+}
 
 
 body {
-  background-image: url("../img/bg/bg_paper0001.png");
-  background-size: cover;
+  background-image: url("../img/bg/bg_design0004.png");
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: $bg-color;
+  background-color: $body-bg-color;
 }
 
 .top-bar {
   /*background: rgba(125, 71, 122, 0.5);*/
-  background: #222222;
+  background: $top-bar-bg-color;
 }
 
 
@@ -74,19 +97,20 @@ body {
 }
 
 .contact-info-container {
-    background: none !important;
-    display: inline-block;
-    margin-left: 12px;
+    background-color: $contact-info-container-bg-color !important;
 }
 
 
-.contact-info {
+.contact-info-button {
+    //background-color: $contact-info-bg-color !important;
+    cursor:text;
+    font-size: $topbar-link-font-size;
     display: inline-block;
-    margin: 12px 30px 12px 0px;
-    font-size: 0.8125rem;
-    background: none !important;
-    /*font-family: 'district_prothin', Helvetica, Roboto, Arial, sans-serif;*/
+    height: $topbar-height;
+    padding:$topbar-link-padding;
+    color: $contact-info-text-color;
 }
+
 
 #icons-right-indent {
   width:45px;
@@ -98,6 +122,10 @@ body {
   display: inline-block;
 /*  margin-left: 30%;
   margin-right: 30%;*/
+}
+
+.font-color-ghost {
+  color: $ghost !important;
 }
 
 
