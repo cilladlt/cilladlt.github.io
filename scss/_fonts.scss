@@ -1,4 +1,4 @@
-﻿
+
 
 
 @font-face {
@@ -11,6 +11,20 @@
          url('../fonts/distproth/distproth-webfont.svg#district_prothin') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/quicksand/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
@@ -56,3 +70,9 @@ $baby-blue : #18b3dd;
 .invisible {
     opacity: 0;
 }
+
+
+
+$text-indent: 50px;
+
+

@@ -3,9 +3,9 @@
 
 /* Global script style variables. */
 $body-bg-color: #111111;
-$gallery-bg-color: rgba(34, 34, 34, 0.9);
+$top-bar-bg-color: rgba(34, 34, 34, 0.9);
+$gallery-bg-color: $top-bar-bg-color;
 
-$top-bar-bg-color: #222222;
 
 $concept-art-bg-color: #10825C;
 $prints-bg-color: #0B9991;
@@ -70,6 +70,12 @@ body {
 
 
 
+.about-description {
+    text-indent: $text-indent;
+}
+
+
+
 .gallery-header {
   background: $gallery-bg-color;
   margin-top: 50px;
@@ -114,4 +120,5 @@ body {
 .footer p {
     font-size: 0.8125rem;
     margin-top: 9px;
+    margin-bottom: 0px;
 }
