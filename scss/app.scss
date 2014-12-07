@@ -74,6 +74,33 @@ body {
     text-indent: $text-indent;
 }
 
+.social-media-icon {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 12px 30px 0px 10px;
+}
+
+.email {
+    background-image: url("../img/icons/icon_email_white.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.email:hover {
+    background-image: url("../img/icons/icon_email_babyblue.png");
+}
+
+.linkedin {
+    background-image: url("../img/icons/icon_linkedin_white.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.linkedin:hover {
+    background-image: url("../img/icons/icon_linkedin_babyblue.png");
+}
+
 
 
 .gallery-header {
