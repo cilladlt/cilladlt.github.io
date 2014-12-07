@@ -1,4 +1,5 @@
 
+
 Main();
 
 
@@ -22,6 +23,9 @@ function Main() {
 
 
 function SetupScrollAnimation() {
+
+    var textOffset = -35;
+
 	// handle links with @href started with '#' only
     $(document).on('click', 'a[href^="#"]', function (e) {
         // target element id
@@ -37,9 +41,9 @@ function SetupScrollAnimation() {
         e.preventDefault();
 
         // top position relative to the document
-        var pos = $(id).offset().top;
+        var pos = $(id).offset().top + textOffset;
 
         // animated top scrolling
-        $('body, html').animate({scrollTop: pos, easing: "easeInOutQuad", duration: 1000});
+        $('body, html').animate({scrollTop: pos, easing: "easeInOutCubic", duration: 1000});
     });
 }
