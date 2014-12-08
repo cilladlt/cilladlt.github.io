@@ -23434,8 +23434,8 @@ th.hide-for-touch {
 
 /* line 71, ../scss/app.scss */
 body {
-  background-image: url("../img/bg/bg_design0004.png");
-  background-size: contain;
+  background-image: url("../img/bg/bg_blue_design.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #111111;
@@ -23548,22 +23548,22 @@ body {
   padding: 0 0.5% 50px 2%;
 }
 
-/* line 176, ../scss/app.scss */
+/* line 177, ../scss/app.scss */
 .sins {
   margin: .8%;
 }
 
-/* line 181, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 .sins_upper {
   width: 47%;
 }
 
-/* line 185, ../scss/app.scss */
+/* line 186, ../scss/app.scss */
 .sins_lower {
   width: 22.5%;
 }
 
-/* line 190, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 .invisible {
   opacity: 0;
 }
