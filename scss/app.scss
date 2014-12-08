@@ -1,49 +1,11 @@
 @import "settings";
 @import "foundation";
 
-// Or selectively include components
-// @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
-
-
+/* Global script style variables. */
 $body-bg-color: #111111;
-$gallery-bg-color: rgba(34, 34, 34, 0.9);
+$top-bar-bg-color: rgba(34, 34, 34, 0.9);
+$gallery-bg-color: $top-bar-bg-color;
 
-$top-bar-bg-color: #222222;
 
 $concept-art-bg-color: #10825C;
 $prints-bg-color: #0B9991;
@@ -51,21 +13,9 @@ $illustrations-bg-color: #0A728F;
 $contact-info-container-bg-color: #00202B;
 $contact-info-text-color: $ghost;
 
+$footer-bg-color: $contact-info-container-bg-color;
+$footer-text-color: $ghost;
 
-
-
-
-.concept-art-button {
-    background-color: $concept-art-bg-color !important;
-}
-
-.prints-button {
-    background-color: $prints-bg-color !important;
-}
-
-.illustrations-button {
-    background-color: $illustrations-bg-color !important;
-}
 
 
 body {
@@ -76,83 +26,10 @@ body {
   background-color: $body-bg-color;
 }
 
+
+
 .top-bar {
-  /*background: rgba(125, 71, 122, 0.5);*/
   background: $top-bar-bg-color;
-}
-
-
-.icon-bar {
-    height: 45px;
-}
-
-.icon-bar a {
-  width:45px !important;
-  height:45px !important;
-  display:inline-block;
-
-  /*padding: 5px 10px 5px 10px;
-  margin-right: -4px;*/
-  /*background:#333333;*/
-}
-
-.contact-info-container {
-    background-color: $contact-info-container-bg-color !important;
-}
-
-
-.contact-info-button {
-    //background-color: $contact-info-bg-color !important;
-    cursor:text;
-    font-size: $topbar-link-font-size;
-    display: inline-block;
-    height: $topbar-height;
-    padding:$topbar-link-padding;
-    color: $contact-info-text-color;
-    background-color: $contact-info-container-bg-color !important;
-}
-
-
-#icons-right-indent {
-  width:45px;
-  display: inline-block;
-}
-
-#nav_logo {
-/*  height: 200px;*/
-  display: inline-block;
-/*  margin-left: 30%;
-  margin-right: 30%;*/
-}
-
-.font-color-ghost {
-  color: $ghost !important;
-}
-
-
-.gallery_header {
-  margin-top: 50px;
-  text-indent: 12px;
-  padding-top: 8px;
-  /*background: rgba(125, 71, 122, 0.5);*/
-  background: $gallery-bg-color;
-}
-
-.gallery_bg {
-  background: $gallery-bg-color;
-  padding: 9px 2.5% 25px 2.5%;
-}
-
-.footer {
-    /*font-family: 'district_prothin', Helvetica, Roboto, Arial, sans-serif;*/
-  background: #222222;
-  text-align: center;
-    height: 40px;
-}
-
-.footer p {
-    font-size: 0.8125rem;
-    margin-top: 9px;
 }
 
 .name {
@@ -160,18 +37,111 @@ body {
   padding-right: 40px;
 }
 
-.cursor_text {
-  cursor: text !important;
+.name:hover {
+    background-color: $ghost !important;
 }
 
-.cursor_pointer {
-  cursor: pointer !important;
+.concept-art-button {
+    background-color: $concept-art-bg-color !important;
 }
 
-.sins_container {
+.concept-art-button:hover {
+    background-color: $jet !important;
+    color: $concept-art-bg-color !important;
+}
+
+.prints-button {
+    background-color: $prints-bg-color !important;
+}
+
+.prints-button:hover {
+    background-color: $jet !important;
+    color: $prints-bg-color !important;
+}
+
+.illustrations-button {
+    background-color: $illustrations-bg-color !important;
+}
+
+.illustrations-button:hover {
+    background-color: $jet !important;
+    color: $illustrations-bg-color !important;
+}
+
+.contact-info-container {
+    background-color: $contact-info-container-bg-color !important;
+}
+
+.contact-info-button {
+    cursor: text;
+    font-size: $topbar-link-font-size;
+    display: inline-block;
+    height: $topbar-height;
+
+    padding-left: $topbar-link-padding;
+    padding-right: $topbar-link-padding;
+    padding-top: $topbar-link-padding;
+    padding-bottom: $topbar-link-padding;
+
+    color: $contact-info-text-color;
+    background-color: $contact-info-container-bg-color !important;
+}
+
+.about-description {
+    text-indent: $text-indent;
+}
+
+.social-media-container {
+    list-style: none;
+    width: 100%;
+}
+
+.social-media-icon {
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 0 3% 0 5%;
+}
+
+.email {
+    background-image: url("../img/icons/icon_email_white.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.email:hover {
+    background-image: url("../img/icons/icon_email_babyblue.png");
+}
+
+.linkedin {
+    background-image: url("../img/icons/icon_linkedin_white.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.linkedin:hover {
+    background-image: url("../img/icons/icon_linkedin_babyblue.png");
+}
+
+
+
+.gallery-header {
+  background: $gallery-bg-color;
+  margin-top: 50px;
+  text-indent: 12px;
+  padding-top: 8px;
+}
+
+.gallery-bg {
+  background: $gallery-bg-color;
+  padding: 9px 2.5% 25px 2.5%;
+}
+
+
+
+.sins-container {
   background: $gallery-bg-color;
   padding: 0 0.5% 50px 2%;
-
 }
 
 .sins {
@@ -179,15 +149,25 @@ body {
 
 }
 
-.sins_upper {
-  width:47%;
+.sins-upper {
+  width:46.5%;
 }
 
-.sins_lower {
-  width:22.5%;
+.sins-lower {
+  width:22.25%;
 }
 
 
-.invisible {
-    opacity: 0;
+
+.footer {
+  background: $footer-bg-color;
+  color: $footer-text-color;
+  text-align: center;
+  height: 40px;
+}
+
+.footer p {
+    font-size: $topbar-link-font-size;
+    margin-top: 9px;
+    margin-bottom: 0;
 }
