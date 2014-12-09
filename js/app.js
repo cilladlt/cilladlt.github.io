@@ -104,7 +104,7 @@
         });
 
         $galleries.imagesLoaded().progress(onLoadedImage);
-        $(document).on("load", function () { setupPackery(); });
+        $(document).on("orientationchange", function () { setupPackery(); });
     }
 
 
