@@ -23445,7 +23445,7 @@ th.hide-for-touch {
   }
 }
 /* Global script style variables. */
-/* line 21, ../scss/app.scss */
+/* line 22, ../scss/app.scss */
 body {
   background-image: url("../img/bg/bg_blue_design.png");
   background-size: cover;
@@ -23454,61 +23454,61 @@ body {
   background-color: #111111;
 }
 
-/* line 31, ../scss/app.scss */
+/* line 32, ../scss/app.scss */
 .top-bar {
   background: rgba(34, 34, 34, 0.9);
 }
 
-/* line 35, ../scss/app.scss */
+/* line 36, ../scss/app.scss */
 .name {
   padding-left: 45px;
   padding-right: 40px;
 }
 
-/* line 40, ../scss/app.scss */
+/* line 41, ../scss/app.scss */
 .name:hover {
   background-color: #FAFAFA !important;
 }
 
-/* line 44, ../scss/app.scss */
+/* line 45, ../scss/app.scss */
 .concept-art-button {
   background-color: #10825C !important;
 }
 
-/* line 48, ../scss/app.scss */
+/* line 49, ../scss/app.scss */
 .concept-art-button:hover {
   background-color: #222222 !important;
   color: #10825C !important;
 }
 
-/* line 53, ../scss/app.scss */
+/* line 54, ../scss/app.scss */
 .prints-button {
   background-color: #0B9991 !important;
 }
 
-/* line 57, ../scss/app.scss */
+/* line 58, ../scss/app.scss */
 .prints-button:hover {
   background-color: #222222 !important;
   color: #0B9991 !important;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .illustrations-button {
   background-color: #0A728F !important;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 67, ../scss/app.scss */
 .illustrations-button:hover {
   background-color: #222222 !important;
   color: #0A728F !important;
 }
 
-/* line 71, ../scss/app.scss */
+/* line 72, ../scss/app.scss */
 .contact-info-container {
   background-color: #00202B !important;
 }
 
-/* line 75, ../scss/app.scss */
+/* line 76, ../scss/app.scss */
 .contact-info-button {
   cursor: text;
   font-size: 0.8125rem;
@@ -23522,18 +23522,18 @@ body {
   background-color: #00202B !important;
 }
 
-/* line 90, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .about-description {
   text-indent: 50px;
 }
 
-/* line 94, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 .social-media-container {
   list-style: none;
   width: 100%;
 }
 
-/* line 99, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 .social-media-icon {
   height: 30px;
   width: 30px;
@@ -23541,31 +23541,31 @@ body {
   margin: 0 3% 0 5%;
 }
 
-/* line 106, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 .email {
   background-image: url("../img/icons/icon_email_white.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 112, ../scss/app.scss */
+/* line 113, ../scss/app.scss */
 .email:hover {
   background-image: url("../img/icons/icon_email_babyblue.png");
 }
 
-/* line 116, ../scss/app.scss */
+/* line 117, ../scss/app.scss */
 .linkedin {
   background-image: url("../img/icons/icon_linkedin_white.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 122, ../scss/app.scss */
+/* line 123, ../scss/app.scss */
 .linkedin:hover {
   background-image: url("../img/icons/icon_linkedin_babyblue.png");
 }
 
-/* line 128, ../scss/app.scss */
+/* line 129, ../scss/app.scss */
 .gallery-header {
   background: rgba(34, 34, 34, 0.9);
   margin-top: 50px;
@@ -23573,34 +23573,38 @@ body {
   padding-top: 8px;
 }
 
-/* line 135, ../scss/app.scss */
-.gallery-bg {
+/* line 136, ../scss/app.scss */
+.gallery {
   background: rgba(34, 34, 34, 0.9);
+}
+
+/* line 140, ../scss/app.scss */
+.js-packery {
   padding: 9px 2.5% 25px 2.5%;
 }
 
-/* line 142, ../scss/app.scss */
+/* line 146, ../scss/app.scss */
 .sins-container {
   background: rgba(34, 34, 34, 0.9);
   padding: 0 0.5% 50px 2%;
 }
 
-/* line 147, ../scss/app.scss */
+/* line 151, ../scss/app.scss */
 .sins {
   margin: .8%;
 }
 
-/* line 152, ../scss/app.scss */
+/* line 156, ../scss/app.scss */
 .sins-upper {
   width: 46.5%;
 }
 
-/* line 156, ../scss/app.scss */
+/* line 160, ../scss/app.scss */
 .sins-lower {
   width: 22.25%;
 }
 
-/* line 162, ../scss/app.scss */
+/* line 166, ../scss/app.scss */
 .footer {
   background: #00202B;
   color: #FAFAFA;
@@ -23608,9 +23612,23 @@ body {
   height: 40px;
 }
 
-/* line 169, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 .footer p {
   font-size: 0.8125rem;
   margin-top: 9px;
   margin-bottom: 0;
+}
+
+/* line 181, ../scss/app.scss */
+.loading {
+  background-image: url("http://desandro.github.io/imagesloaded/assets/loading.gif");
+  width: 200px;
+  height: 250px;
+}
+
+/* line 187, ../scss/app.scss */
+.gallery-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0f0f0f;
 }

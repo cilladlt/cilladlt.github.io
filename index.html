@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Pricilla Delatorre: Concept Art</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
         <link rel="stylesheet" href="stylesheets/app.css" />
         <script src="bower_components/modernizr/modernizr.js"></script>
 
@@ -39,10 +40,10 @@
     
         <div id="container" class="row">
           
-          <div class="large-12 columns gallery-header">
+          <!--<div class="large-12 columns gallery-header">
               <a class="cursor_text" id="about"><h2>About Pricilla</h2></a>
           </div>
-          <div class="js-packery large-12 columns gallery-bg">
+          <div class="js-packery large-12 columns gallery">
             <p class="large-11 about-description">
               Pricilla Delatorre is a 2D concept artist specializing in telling stories through her designs. Pricilla paints her worlds by creating physical and digital sketches, then tying together a combination of vector art, digital painting, and texturing. Her favorite tools are Sketchbook Pro, Illustrator, and Photoshop.
             </p>
@@ -51,50 +52,20 @@
                 <li><a class="social-media-icon email"  href="mailto:pdelatorre50@gmail.com" target="_blank"></a></li>
                 <li><a class="social-media-icon linkedin"  href="http://www.linkedin.com/in/cilladlt" target=" _blank"></a></li>
             </ul>
-          </div>
+          </div>-->
 
             <div class="large-12 columns gallery-header">
                 <a class="cursor_text" id="concept"><h2>Concept Art</h2></a>
             </div>
-            <div class="js-packery large-12 columns gallery-bg">
-                <img class="packery_item medium-4" src="img/sultan/sl_dreds_001.jpg">
-                <img class="packery_item medium-6" src="img/zelda/zl_link.jpg">
-                <img class="packery_item medium-4" src="img/kingcrow/kc_kingcrow_concept_001.png">
-                <img class="packery_item medium-4" src="img/kingcrow/kc_logo.png">
-            </div>
-
-
-            <div class="js-packery large-12 columns gallery-bg">
-                <img class="packery_item medium-4" src="img/kingcrow/kc_kingcrow_blue_002.jpg">
-                <img class="packery_item medium-4" src="img/kingcrow/kc_padle_blue_001.png">
-                <img class="packery_item medium-4" src="img/ladyluck/ll_teen_blue_001.png">
-                <img class="packery_item medium-3" src="img/kingcrow/kc_kingcrow_blue_001.jpg">
-                <img class="packery_item medium-3" src="img/kingcrow/kc_kingcrow_blue_003.png">
-            </div>
+            <div class="js-packery large-12 columns gallery concept-gallery"></div>
+            <div class="js-packery large-12 columns gallery sketch-gallery"></div>
 
 
             <div class="large-12 columns gallery-header">
                 <a class="cursor_text" id="prints"><h2>Prints</h2></a>
             </div>
-            <div class="js-packery large-12 columns gallery-bg">
-                <img class="packery_item medium-4" src="img/prints/print_lindblum.jpg">
-                <img class="packery_item medium-3" src="img/prints/print_owl.jpg">
-                <img class="packery_item medium-4" src="img/prints/print_snake.jpg">
-            </div>
+          <div class="js-packery large-12 columns gallery print-gallery"></div>
 
-
-            <div class="large-12 columns gallery-header">
-                <a class="cursor_text" id="illustrations"><h2>Illustrations</h2></a>
-            </div>
-            <div class="sins-container columns large-12">
-                <img class="sins sins-upper" src="img/sins/sins_envy.jpg">
-                <img class="sins sins-upper" src="img/sins/sins_wrath.jpg">
-
-                <img class="sins sins-lower" src="img/sins/sins_sloth.jpg">
-                <img class="sins sins-lower" src="img/sins/sins_greed.jpg">
-                <img class="sins sins-lower" src="img/sins/sins_lust.jpg">
-                <img class="sins sins-lower" src="img/sins/sins_gluttony.jpg">
-            </div>
         </div>
 
 
@@ -102,11 +73,13 @@
             <p>&copy;2014 Pricilla Delatorre</p>
         </div>
 
-
+        <script src="bower_components/sprintf/dist/sprintf.min.js"></script>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/velocity/velocity.min.js"></script>
         <script src="bower_components/foundation/js/foundation.min.js"></script>
         <script src="bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
         <script src="bower_components/packery/dist/packery.pkgd.min.js"></script>
+        <script src="js/portfolio.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>

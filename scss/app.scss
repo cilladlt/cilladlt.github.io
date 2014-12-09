@@ -1,5 +1,6 @@
 @import "settings";
 @import "foundation";
+@import "animation";
 
 /* Global script style variables. */
 $body-bg-color: #111111;
@@ -19,11 +20,11 @@ $footer-text-color: $ghost;
 
 
 body {
-  background-image: url("../img/bg/bg_blue_design.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: $body-bg-color;
+    background-image: url("../img/bg/bg_blue_design.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: $body-bg-color;
 }
 
 
@@ -126,48 +127,65 @@ body {
 
 
 .gallery-header {
-  background: $gallery-bg-color;
-  margin-top: 50px;
-  text-indent: 12px;
-  padding-top: 8px;
+    background: $gallery-bg-color;
+    margin-top: 50px;
+    text-indent: 12px;
+    padding-top: 8px;
 }
 
-.gallery-bg {
-  background: $gallery-bg-color;
-  padding: 9px 2.5% 25px 2.5%;
+.gallery {
+    background: $gallery-bg-color;
+}
+
+.js-packery {
+    padding: 9px 2.5% 25px 2.5%;
 }
 
 
 
 .sins-container {
-  background: $gallery-bg-color;
-  padding: 0 0.5% 50px 2%;
+    background: $gallery-bg-color;
+    padding: 0 0.5% 50px 2%;
 }
 
 .sins {
-  margin: .8%;
+    margin: .8%;
 
 }
 
 .sins-upper {
-  width:46.5%;
+    width:46.5%;
 }
 
 .sins-lower {
-  width:22.25%;
+    width:22.25%;
 }
 
 
 
 .footer {
-  background: $footer-bg-color;
-  color: $footer-text-color;
-  text-align: center;
-  height: 40px;
+    background: $footer-bg-color;
+    color: $footer-text-color;
+    text-align: center;
+    height: 40px;
 }
 
 .footer p {
     font-size: $topbar-link-font-size;
     margin-top: 9px;
     margin-bottom: 0;
+}
+
+
+
+.loading {
+    background-image: url("http://desandro.github.io/imagesloaded/assets/loading.gif");
+    width:200px;
+    height:250px;
+}
+
+.gallery-item {
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: rgba(15, 15, 15, 1.0);
 }
