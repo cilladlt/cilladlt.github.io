@@ -23445,7 +23445,7 @@ th.hide-for-touch {
   }
 }
 /* Global script style variables. */
-/* line 22, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 body {
   background-image: url("../img/bg/bg_blue_design.png");
   background-size: cover;
@@ -23454,61 +23454,61 @@ body {
   background-color: #111111;
 }
 
-/* line 32, ../scss/app.scss */
+/* line 33, ../scss/app.scss */
 .top-bar {
   background: rgba(34, 34, 34, 0.9);
 }
 
-/* line 36, ../scss/app.scss */
+/* line 37, ../scss/app.scss */
 .name {
   padding-left: 45px;
   padding-right: 40px;
 }
 
-/* line 41, ../scss/app.scss */
+/* line 42, ../scss/app.scss */
 .name:hover {
   background-color: #FAFAFA !important;
 }
 
-/* line 45, ../scss/app.scss */
+/* line 46, ../scss/app.scss */
 .concept-art-button {
   background-color: #10825C !important;
 }
 
-/* line 49, ../scss/app.scss */
+/* line 50, ../scss/app.scss */
 .concept-art-button:hover {
   background-color: #222222 !important;
   color: #10825C !important;
 }
 
-/* line 54, ../scss/app.scss */
+/* line 55, ../scss/app.scss */
 .prints-button {
   background-color: #0B9991 !important;
 }
 
-/* line 58, ../scss/app.scss */
+/* line 59, ../scss/app.scss */
 .prints-button:hover {
   background-color: #222222 !important;
   color: #0B9991 !important;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .illustrations-button {
   background-color: #0A728F !important;
 }
 
-/* line 67, ../scss/app.scss */
+/* line 68, ../scss/app.scss */
 .illustrations-button:hover {
   background-color: #222222 !important;
   color: #0A728F !important;
 }
 
-/* line 72, ../scss/app.scss */
+/* line 73, ../scss/app.scss */
 .contact-info-container {
   background-color: #00202B !important;
 }
 
-/* line 76, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 .contact-info-button {
   cursor: text;
   font-size: 0.8125rem;
@@ -23522,19 +23522,19 @@ body {
   background-color: #00202B !important;
 }
 
-/* line 91, ../scss/app.scss */
+/* line 92, ../scss/app.scss */
 .about-description {
   text-indent: 50px;
   margin: 0 2.5% 0 2.5%;
 }
 
-/* line 96, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
 .social-media-container {
   list-style: none;
   width: 100%;
 }
 
-/* line 101, ../scss/app.scss */
+/* line 102, ../scss/app.scss */
 .social-media-icon {
   height: 30px;
   width: 30px;
@@ -23542,31 +23542,31 @@ body {
   margin: 0 3% 0 5%;
 }
 
-/* line 108, ../scss/app.scss */
+/* line 109, ../scss/app.scss */
 .email {
   background-image: url("../img/icons/icon_email_white.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 114, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 .email:hover {
   background-image: url("../img/icons/icon_email_babyblue.png");
 }
 
-/* line 118, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 .linkedin {
   background-image: url("../img/icons/icon_linkedin_white.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 124, ../scss/app.scss */
+/* line 125, ../scss/app.scss */
 .linkedin:hover {
   background-image: url("../img/icons/icon_linkedin_babyblue.png");
 }
 
-/* line 130, ../scss/app.scss */
+/* line 131, ../scss/app.scss */
 .gallery-header {
   background: rgba(34, 34, 34, 0.9);
   margin-top: 50px;
@@ -23574,54 +23574,54 @@ body {
   padding-top: 8px;
 }
 
-/* line 137, ../scss/app.scss */
+/* line 138, ../scss/app.scss */
 .gallery {
   background: rgba(34, 34, 34, 0.9);
 }
 
-/* line 141, ../scss/app.scss */
+/* line 142, ../scss/app.scss */
 .js-packery {
   padding: 9px 2.5% 25px 2.5%;
 }
 
-/* line 147, ../scss/app.scss */
+/* line 148, ../scss/app.scss */
 .sins-container {
   background: rgba(34, 34, 34, 0.9);
   padding: 0 0.5% 50px 2%;
 }
 
-/* line 152, ../scss/app.scss */
+/* line 153, ../scss/app.scss */
 .sins {
   margin: .8%;
 }
 
 @media only screen and (min-width: 55.75em) {
-  /* line 157, ../scss/app.scss */
+  /* line 158, ../scss/app.scss */
   .sins-upper {
     width: 46.5%;
   }
 }
 @media only screen and (max-width: 55.74em) {
-  /* line 157, ../scss/app.scss */
+  /* line 158, ../scss/app.scss */
   .sins-upper {
     width: 95%;
   }
 }
 
 @media only screen and (min-width: 55.75em) {
-  /* line 166, ../scss/app.scss */
+  /* line 167, ../scss/app.scss */
   .sins-lower {
     width: 22.25%;
   }
 }
 @media only screen and (max-width: 55.74em) {
-  /* line 166, ../scss/app.scss */
+  /* line 167, ../scss/app.scss */
   .sins-lower {
     width: 95%;
   }
 }
 
-/* line 177, ../scss/app.scss */
+/* line 178, ../scss/app.scss */
 .footer {
   background: #00202B;
   color: #FAFAFA;
@@ -23629,24 +23629,35 @@ body {
   height: 40px;
 }
 
-/* line 184, ../scss/app.scss */
+/* line 185, ../scss/app.scss */
 .footer p {
   font-size: 0.8125rem;
   margin-top: 9px;
   margin-bottom: 0;
 }
 
-/* line 192, ../scss/app.scss */
+/* line 193, ../scss/app.scss */
 .loading {
   background-image: url("http://desandro.github.io/imagesloaded/assets/loading.gif");
   width: 200px;
   height: 250px;
 }
 
-/* line 198, ../scss/app.scss */
+/* line 199, ../scss/app.scss */
 .gallery-item {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #0f0f0f;
-  max-width: 95%;
+}
+@media only screen and (min-width: 55.75em) {
+  /* line 199, ../scss/app.scss */
+  .gallery-item {
+    max-width: 95%;
+  }
+}
+@media only screen and (max-width: 55.74em) {
+  /* line 199, ../scss/app.scss */
+  .gallery-item {
+    width: 95%;
+  }
 }
