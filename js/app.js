@@ -9,24 +9,38 @@
 
 
     function setupScrollAnimation() {
-        var textOffset = -35;
         // handle links with @href started with '#' only
         $(document).on('click', 'a[href^="#"]', function (e) {
-            // target element id
-            var id = $(this).attr('href');
+            var $target;
+            var option = $(this).text();
 
-            // target element
-            var $id = $(id);
-            if ($id.size() === 0) {
+            switch (option) {
+                case "Pricilla Delatorre":
+                    $target = $("#about");
+                    break;
+                case "Concept Art":
+                    $target = $("#concept");
+                    break;
+                case "Prints":
+                    $target = $("#prints");
+                    break;
+                case "Illustrations":
+                    $target = $("#illustrations");
+                    break;
+                default:
+                    console.log("Unknown menu option: " + option);
+                    return;
+            }
+
+            var topOffset = -35;
+            var windowPos = $(window).scrollTop();
+            var targetPos = $target.offset().top;
+
+            if (Math.abs(targetPos - windowPos) <= Math.abs(topOffset)) {
+                e.preventDefault();
                 return;
             }
-            // prevent standard hash navigation (avoid blinking in IE)
-            e.preventDefault();
-
-            // top position relative to the document
-            var pos = $(id).offset().top + textOffset;
-            // animated top scrolling
-            $('body, html').animate({ scrollTop: pos, easing: "easeInOutCubic", duration: 1000 });
+            $target.velocity("scroll", { duration: 1000, easing: "easeOutCubic", offset: topOffset });
         });
     }
 
