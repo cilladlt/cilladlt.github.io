@@ -26,7 +26,7 @@
             // top position relative to the document
             var pos = $(id).offset().top + textOffset;
             // animated top scrolling
-            $('body, html').animate({ scrollTop: pos, easing: "easeInOutCubic", duration: 1000 });
+            $('body, html').velocity({ scrollTop: pos, easing: "easeInOutCubic", duration: 1000 });
         });
     }
 
