@@ -6,6 +6,15 @@
     var $conceptGalleries;
     var $sketchGalleries;
     var $printGalleries;
+    var $packeryGalleries;
+
+
+    function setupPackery() {
+        return $packeryGalleries.packery({
+            itemSelector: ".gallery-item",
+            gutter: 15
+        });
+    }
 
 
     function setupScrollAnimation() {
@@ -27,6 +36,9 @@
                 case "Illustrations":
                     $target = $("#illustrations");
                     break;
+                case "Menu":
+                    e.preventDefault();
+                    return;
                 default:
                     console.log("Unknown menu option: " + option);
                     return;
@@ -46,7 +58,6 @@
 
 
     function onLoadedImage(imagesLoadedInstance, image) {
-        //console.log("loaded: " + image);
         var $img = $(image.img);
         var $galleryItem = $img.parent();
         $galleryItem.removeClass("loading");
@@ -58,11 +69,7 @@
                 backgroundColorAlpha: 0.0
             });
         });
-
-        $galleries.packery({
-            itemSelector: ".gallery-item",
-            gutter: 15
-        });
+        setupPackery();
     }
 
 
@@ -72,21 +79,16 @@
         setupScrollAnimation();
 
         $galleries = $(".gallery");
-        var $packeryGalleries = $(".js-packery");
+        $packeryGalleries = $(".js-packery");
         $conceptGalleries = $(".concept-gallery");
         $sketchGalleries = $(".sketch-gallery");
         $printGalleries = $(".print-gallery");
 
-
-        var $packery = $packeryGalleries.packery({
-            itemSelector: ".gallery-item",
-            gutter: 15
-        });
+        setupPackery();
 
         window.galleryItems.forEach(function(elem) {
             var dom = sprintf("<div class='gallery-item loading medium-%i'><img style='opacity:0;' src='%s'></div>", 
                 elem.size, elem.image);
-            //console.log(dom);
 
             switch (elem.gallery) {
                 case "concept":
@@ -100,11 +102,8 @@
                     break;
             }
         });
+
         $galleries.imagesLoaded().progress(onLoadedImage);
-        $galleries.packery({
-            itemSelector: ".gallery-item",
-            gutter: 15
-        });
     }
 
 
