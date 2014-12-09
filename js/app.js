@@ -104,6 +104,7 @@
         });
 
         $galleries.imagesLoaded().progress(onLoadedImage);
+        $(document).on("load", function () { setupPackery(); });
     }
 
 
