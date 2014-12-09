@@ -45,8 +45,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -609,7 +609,7 @@ select {
     float: right;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 159, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .medium-push-0 {
     position: relative;
@@ -1640,8 +1640,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -1840,8 +1840,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -2069,8 +2069,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -2402,7 +2402,7 @@ select {
     clear: both;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 61, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-1 > li {
     width: 100%;
@@ -2753,8 +2753,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -2986,8 +2986,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -3140,8 +3140,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -3565,7 +3565,7 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 253, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block;
@@ -3751,7 +3751,7 @@ button::-moz-focus-inner {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 167, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
   .button-group.radius.stack-for-small > * {
     margin: 0 -2px;
@@ -3911,7 +3911,7 @@ button::-moz-focus-inner {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 178, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
   .button-group.round.stack-for-small > * {
     margin: 0 -2px;
@@ -4159,8 +4159,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -4584,7 +4584,7 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 253, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block;
@@ -4603,8 +4603,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -4866,7 +4866,7 @@ select {
   display: block;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 143, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
   .clearing-main-prev,
   .clearing-main-next {
@@ -5000,8 +5000,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -5458,8 +5458,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -5686,8 +5686,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -5869,8 +5869,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -6023,8 +6023,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -6448,7 +6448,7 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 253, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block;
@@ -7050,8 +7050,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -7255,7 +7255,7 @@ select {
   margin: auto;
   float: none;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 97, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.medium-vertical {
     height: 100%;
@@ -7320,7 +7320,7 @@ select {
 .icon-bar.two-up.vertical .item, .icon-bar.two-up.small-vertical .item {
   width: auto;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 225, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.two-up.medium-vertical .item {
     width: auto;
@@ -7340,7 +7340,7 @@ select {
 .icon-bar.three-up.vertical .item, .icon-bar.three-up.small-vertical .item {
   width: auto;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 239, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.three-up.medium-vertical .item {
     width: auto;
@@ -7360,7 +7360,7 @@ select {
 .icon-bar.four-up.vertical .item, .icon-bar.four-up.small-vertical .item {
   width: auto;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 253, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.four-up.medium-vertical .item {
     width: auto;
@@ -7380,7 +7380,7 @@ select {
 .icon-bar.five-up.vertical .item, .icon-bar.five-up.small-vertical .item {
   width: auto;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 267, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.five-up.medium-vertical .item {
     width: auto;
@@ -7400,7 +7400,7 @@ select {
 .icon-bar.six-up.vertical .item, .icon-bar.six-up.small-vertical .item {
   width: auto;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 281, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar.six-up.medium-vertical .item {
     width: auto;
@@ -7426,8 +7426,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -7601,8 +7601,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -7910,7 +7910,7 @@ select {
 }
 
 /* Styles for screens that are at least 768px; */
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 192, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
   .joyride-tip-guide {
     width: 300px;
@@ -7958,8 +7958,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -8127,8 +8127,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -8331,8 +8331,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -8505,8 +8505,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -8944,7 +8944,7 @@ select {
   display: none;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 334, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
   .touch .orbit-container .orbit-prev,
   .touch .orbit-container .orbit-next {
@@ -8999,8 +8999,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -9221,8 +9221,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -9447,8 +9447,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -9661,8 +9661,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -9865,8 +9865,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -10130,8 +10130,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -10284,8 +10284,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -10848,7 +10848,7 @@ select {
     float: right;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 159, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .medium-push-0 {
     position: relative;
@@ -11914,7 +11914,7 @@ select {
 .reveal-modal > :last-child, dialog > :last-child {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 167, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal, dialog {
     width: 80%;
@@ -11924,7 +11924,7 @@ select {
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 167, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal, dialog {
     top: 6.25rem;
@@ -11942,7 +11942,7 @@ select {
 .reveal-modal.collapse, dialog.collapse {
   padding: 0;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 182, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.tiny, dialog.tiny {
     width: 30%;
@@ -11952,7 +11952,7 @@ select {
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 183, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.small, dialog.small {
     width: 40%;
@@ -11962,7 +11962,7 @@ select {
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 184, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.medium, dialog.medium {
     width: 60%;
@@ -11972,7 +11972,7 @@ select {
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 185, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.large, dialog.large {
     width: 70%;
@@ -11982,7 +11982,7 @@ select {
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 186, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.xlarge, dialog.xlarge {
     width: 95%;
@@ -12002,7 +12002,7 @@ select {
   max-width: none !important;
   margin-left: 0 !important;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 187, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal.full, dialog.full {
     width: 100vw;
@@ -12066,8 +12066,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -12269,8 +12269,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -12423,8 +12423,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -12848,7 +12848,7 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 253, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block;
@@ -12867,8 +12867,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -13227,8 +13227,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -13438,8 +13438,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -13743,8 +13743,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -13958,8 +13958,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -14112,8 +14112,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -14676,7 +14676,7 @@ select {
     float: right;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 159, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .medium-push-0 {
     position: relative;
@@ -15795,7 +15795,7 @@ select {
   padding: 0 0.9375rem;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 99, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
   .tabs.vertical {
     width: 20%;
@@ -15832,8 +15832,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -16005,8 +16005,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -16222,7 +16222,7 @@ select {
   font-weight: normal;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 110, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip > .nub {
     border-color: transparent transparent #333333 transparent;
@@ -16268,8 +16268,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -16422,8 +16422,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -16986,7 +16986,7 @@ select {
     float: right;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 159, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .medium-push-0 {
     position: relative;
@@ -18017,8 +18017,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -18442,7 +18442,7 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 253, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block;
@@ -18461,8 +18461,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -18615,8 +18615,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -19040,7 +19040,7 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 253, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block;
@@ -19631,8 +19631,8 @@ label.error {
 
 /* line 108, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -20117,7 +20117,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 448, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: #333333;
@@ -20385,8 +20385,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -20588,7 +20588,7 @@ select {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 55.625em) and (max-width: 64em) {
+@media only screen and (min-width: 55.75em) and (max-width: 64em) {
   /* line 162, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-only-text-left {
     text-align: left !important;
@@ -20609,7 +20609,7 @@ select {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 162, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-text-left {
     text-align: left !important;
@@ -21082,7 +21082,7 @@ blockquote p {
   padding: 0 0.0625rem;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 455, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
@@ -21236,8 +21236,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -21390,8 +21390,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -21593,7 +21593,7 @@ select {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 55.625em) and (max-width: 64em) {
+@media only screen and (min-width: 55.75em) and (max-width: 64em) {
   /* line 162, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-only-text-left {
     text-align: left !important;
@@ -21614,7 +21614,7 @@ select {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 162, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-text-left {
     text-align: left !important;
@@ -22087,7 +22087,7 @@ blockquote p {
   padding: 0 0.0625rem;
 }
 
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 455, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
@@ -22311,7 +22311,7 @@ blockquote p {
   height: 2.8125rem;
   top: 0;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 203, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .tab-bar-section.left, .tab-bar-section.right {
     text-align: left;
@@ -22474,7 +22474,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: transparent;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 276, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .move-right .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -22506,7 +22506,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: transparent;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 276, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .move-left .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -22538,7 +22538,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: transparent;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 276, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .offcanvas-overlap .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -22570,7 +22570,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: transparent;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 276, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .offcanvas-overlap-left .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -22602,7 +22602,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: transparent;
 }
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 276, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .offcanvas-overlap-right .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -22781,8 +22781,8 @@ meta.foundation-mq-small {
 
 /* line 356, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:55.625em)/";
-  width: 55.625em;
+  font-family: "/only screen and (min-width:55.75em)/";
+  width: 55.75em;
 }
 
 /* line 361, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -22978,7 +22978,7 @@ select {
   }
 }
 /* medium displays */
-@media only screen and (min-width: 55.625em) {
+@media only screen and (min-width: 55.75em) {
   /* line 244, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
     display: inherit !important;
@@ -23631,4 +23631,5 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #0f0f0f;
+  max-width: 95%;
 }
