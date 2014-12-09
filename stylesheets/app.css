@@ -3643,7 +3643,7 @@ button::-moz-focus-inner {
 .button-group.stack-for-small > li:first-child button, .button-group.stack-for-small > li:first-child .button {
   border-left: 0;
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 55.74em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
   .button-group.stack-for-small > li {
     margin: 0 -2px;
@@ -3785,7 +3785,7 @@ button::-moz-focus-inner {
     border-top-right-radius: 3px;
   }
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 55.74em) {
   /* line 167, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
   .button-group.radius.stack-for-small > * {
     margin: 0 -2px;
@@ -3945,7 +3945,7 @@ button::-moz-focus-inner {
     border-top-right-radius: 1000px;
   }
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 55.74em) {
   /* line 178, ../bower_components/foundation/scss/foundation/components/_button-groups.scss */
   .button-group.round.stack-for-small > * {
     margin: 0 -2px;
@@ -8955,7 +8955,7 @@ select {
     display: block;
   }
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 55.74em) {
   /* line 345, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
   .orbit-stack-on-small .orbit-slides-container {
     height: auto !important;
@@ -11896,7 +11896,7 @@ select {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   padding: 1.875rem;
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 55.74em) {
   /* line 167, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   .reveal-modal, dialog {
     min-height: 100vh;
@@ -19710,7 +19710,7 @@ meta.foundation-mq-topbar {
   margin-bottom: 0;
   font-size: 0.75rem;
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 55.74em) {
   /* line 169, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar .button, .top-bar button {
     position: relative;
@@ -20546,7 +20546,7 @@ select {
   text-align: justify !important;
 }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 55.74em) {
   /* line 162, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .small-only-text-left {
     text-align: left !important;
@@ -21551,7 +21551,7 @@ select {
   text-align: justify !important;
 }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 55.74em) {
   /* line 162, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .small-only-text-left {
     text-align: left !important;
@@ -23525,15 +23525,16 @@ body {
 /* line 91, ../scss/app.scss */
 .about-description {
   text-indent: 50px;
+  margin: 0 2.5% 0 2.5%;
 }
 
-/* line 95, ../scss/app.scss */
+/* line 96, ../scss/app.scss */
 .social-media-container {
   list-style: none;
   width: 100%;
 }
 
-/* line 100, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 .social-media-icon {
   height: 30px;
   width: 30px;
@@ -23541,31 +23542,31 @@ body {
   margin: 0 3% 0 5%;
 }
 
-/* line 107, ../scss/app.scss */
+/* line 108, ../scss/app.scss */
 .email {
   background-image: url("../img/icons/icon_email_white.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 113, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 .email:hover {
   background-image: url("../img/icons/icon_email_babyblue.png");
 }
 
-/* line 117, ../scss/app.scss */
+/* line 118, ../scss/app.scss */
 .linkedin {
   background-image: url("../img/icons/icon_linkedin_white.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 123, ../scss/app.scss */
+/* line 124, ../scss/app.scss */
 .linkedin:hover {
   background-image: url("../img/icons/icon_linkedin_babyblue.png");
 }
 
-/* line 129, ../scss/app.scss */
+/* line 130, ../scss/app.scss */
 .gallery-header {
   background: rgba(34, 34, 34, 0.9);
   margin-top: 50px;
@@ -23573,38 +23574,54 @@ body {
   padding-top: 8px;
 }
 
-/* line 136, ../scss/app.scss */
+/* line 137, ../scss/app.scss */
 .gallery {
   background: rgba(34, 34, 34, 0.9);
 }
 
-/* line 140, ../scss/app.scss */
+/* line 141, ../scss/app.scss */
 .js-packery {
   padding: 9px 2.5% 25px 2.5%;
 }
 
-/* line 146, ../scss/app.scss */
+/* line 147, ../scss/app.scss */
 .sins-container {
   background: rgba(34, 34, 34, 0.9);
   padding: 0 0.5% 50px 2%;
 }
 
-/* line 151, ../scss/app.scss */
+/* line 152, ../scss/app.scss */
 .sins {
   margin: .8%;
 }
 
-/* line 156, ../scss/app.scss */
-.sins-upper {
-  width: 46.5%;
+@media only screen and (min-width: 55.75em) {
+  /* line 157, ../scss/app.scss */
+  .sins-upper {
+    width: 46.5%;
+  }
+}
+@media only screen and (max-width: 55.74em) {
+  /* line 157, ../scss/app.scss */
+  .sins-upper {
+    width: 95%;
+  }
 }
 
-/* line 160, ../scss/app.scss */
-.sins-lower {
-  width: 22.25%;
+@media only screen and (min-width: 55.75em) {
+  /* line 166, ../scss/app.scss */
+  .sins-lower {
+    width: 22.25%;
+  }
+}
+@media only screen and (max-width: 55.74em) {
+  /* line 166, ../scss/app.scss */
+  .sins-lower {
+    width: 95%;
+  }
 }
 
-/* line 166, ../scss/app.scss */
+/* line 177, ../scss/app.scss */
 .footer {
   background: #00202B;
   color: #FAFAFA;
@@ -23612,21 +23629,21 @@ body {
   height: 40px;
 }
 
-/* line 173, ../scss/app.scss */
+/* line 184, ../scss/app.scss */
 .footer p {
   font-size: 0.8125rem;
   margin-top: 9px;
   margin-bottom: 0;
 }
 
-/* line 181, ../scss/app.scss */
+/* line 192, ../scss/app.scss */
 .loading {
   background-image: url("http://desandro.github.io/imagesloaded/assets/loading.gif");
   width: 200px;
   height: 250px;
 }
 
-/* line 187, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
 .gallery-item {
   background-position: center;
   background-repeat: no-repeat;

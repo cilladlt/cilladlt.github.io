@@ -90,6 +90,7 @@ body {
 
 .about-description {
     text-indent: $text-indent;
+    margin: 0 2.5% 0 2.5%;
 }
 
 .social-media-container {
@@ -153,12 +154,22 @@ body {
 
 }
 
-.sins-upper {
-    width:46.5%;
+.sins-upper { 
+    @media #{$medium-up} {
+        width:46.5%;
+    }
+    @media #{$small-only} {
+        width:95%;
+    }
 }
 
 .sins-lower {
-    width:22.25%;
+    @media #{$medium-up} {
+        width:22.25%;
+    }
+    @media #{$small-only} {
+        width:95%;
+    }
 }
 
 
