@@ -13,15 +13,9 @@
             gallery: "concept"
         },
         {
-            name: "Link Kills Navi",
-            image: "img/zelda/zl_link.jpg",
-            size: 6,
-            gallery: "concept"
-        },
-        {
             name: "King Crow Concept I",
             image: "img/kingcrow/kc_kingcrow_concept_001.png",
-            size: 4,
+            size: 3,
             gallery: "concept"
         },
         {
@@ -30,6 +24,18 @@
             size: 4,
             gallery: "concept"
         },
+        {
+            name: "Link Kills Navi",
+            image: "img/zelda/zl_link.jpg",
+            size: 4,
+            gallery: "concept"
+        },
+        {   name: "Flying Ball Concept",
+            image: "img/misc/buball017.png",
+            size: 6,
+            gallery: "concept"
+        },
+        
         /* Sketches */
         {
             name: "King Crow Sketch I",
