@@ -17,6 +17,7 @@ $contact-info-text-color: $ghost;
 $footer-bg-color: $contact-info-container-bg-color;
 $footer-text-color: $ghost;
 
+$small-only-image-width: 95%;
 
 
 body {
@@ -168,7 +169,7 @@ body {
         width:22.25%;
     }
     @media #{$small-only} {
-        width:95%;
+        width:$small-only-image-width;
     }
 }
 
@@ -199,5 +200,11 @@ body {
     background-position:center;
     background-repeat: no-repeat;
     background-color: rgba(15, 15, 15, 1.0);
-    max-width: 95%;
+
+    @media #{$medium-up} {
+        max-width: $small-only-image-width;
+    }
+    @media #{$small-only} {
+        width: $small-only-image-width;
+    }
 }
