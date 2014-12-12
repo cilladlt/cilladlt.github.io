@@ -30,6 +30,11 @@
             size: 4,
             gallery: "concept"
         },
+        {   name: "Buball Concept",
+            image: "img/misc/buball017.png",
+            size: 4,
+            gallery: "concept"
+        },
         /* Sketches */
         {
             name: "King Crow Sketch I",
